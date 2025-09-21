@@ -1,32 +1,42 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-	<style>
-		#num{
-			 Max-width:  600px ;
-				 Margin:  10px ;
-                Padding:  15px;
-              Border-left: 8px solid green ;
-               Background-color:  #f8fffe;
-                        Font-weight: Bold;
-		}
-	</style>
-</head>
+  
+  <style>
+    
+    blockquote {
+      max-width: 600px;               
+      margin: 10px;                   
+      padding: 15px;                  
+      border-left: 8px solid green;   
+      background-color: #f8ff
+      font-weight: bold;              
+    }
 
+    
+
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script> 
-	<section id="num1">
-		<p> What is the captial of India?</p>
-	</section>
-	<input type="radio" value="a"  name="gender">New Delhi <div></div>
-	<input type="radio" value="b" name ="gender" >MUmbai<div></div> 
-	<blockquote id="num">New Delhi is the capital of India and an administrative district of NCT Delhi.</blockquote>
+  
+  
+  <section class="quiz">
+    <p class="question">What is the capital of India?</p>
+
+    
+    <label>
+      <input type="radio" name="capital" value="new-delhi"> New Delhi
+    </label>
+    <label>
+      <input type="radio" name="capital" value="mumbai"> Mumbai
+    </label>
+
+    
+    <blockquote cite="https://en.wikipedia.org/wiki/New_Delhi">
+      “New Delhi is the capital of India and an administrative district of NCT Delhi.”
+      <br> — <a href="https://en.wikipedia.org/wiki/New_Delhi" target="_blank">Wikipedia</a>
+    </blockquote>
+  </section>
 
 </body>
-
 </html>
